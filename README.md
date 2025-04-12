@@ -32,7 +32,7 @@ python tft_trait_solver.py \
   --free_traits Techie
 ```
 
-## 📊 Default Level 7, Min 8 Trait Combos
+## 📊 7 Units, 8 Trait Combos
 
 <!-- BEGIN COMBO TABLE -->
 
