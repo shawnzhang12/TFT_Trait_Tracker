@@ -21,7 +21,7 @@ def get_active_traits(trait_counter, trait_goals):
         if trait_counter[t] >= trait_goals.get(t, 2)
     ])
 
-def generate_table(champion_pool, trait_goals, max_rows=10):
+def generate_table(champion_pool, trait_goals, max_rows=40):
     rows = []
     with open(CACHE_PATH) as f:
         combos = [json.loads(line) for line in f]
